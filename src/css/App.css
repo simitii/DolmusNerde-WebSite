@@ -1,0 +1,151 @@
+@font-face {
+font-family: 'BeonMedium';
+src: url('../fonts/beon-webfont.eot');
+src: local('☺'), url('../fonts/beon-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/beon-webfont.woff') format('woff'), url('../fonts/beon-webfont.ttf') format('truetype'), url('../fonts/beon-webfont.svg#BeonMedium') format('svg');
+font-weight: normal;
+font-style: normal;
+}
+
+.App {
+  background-image: url(../images/background.jpg);
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-color: #2a2e39;
+  position: fixed;
+  z-index: 10;
+}
+
+::-webkit-scrollbar {
+  -webkit-appearance: none;
+  width: 7px;
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 4px;
+  background-color: rgba(0, 0, 0, .5);
+  -webkit-box-shadow: 0 0 1px rgba(255, 255, 255, .5);
+}
+
+/* centered columns styles */
+.row-centered {
+    text-align:center;
+}
+.col-centered {
+    display:inline-block;
+    float:none;
+    /* reset the text-align */
+    text-align:left;
+    /* inline-block space fix */
+    margin-right:-4px;
+}
+.vertical-center {
+  display:table-cell;
+  vertical-align:middle;
+  float:none;
+}
+.mobile-top-bar {
+  position: absolute;
+  top:12px;
+  width: 100%;
+  height: 60px;
+  background-color: #32abab;
+  box-shadow: 2px 1.5px 1px #888888;
+  border-radius: 5px;
+}
+.mobile-top-bar-button{
+  width:60px;
+  height:60px;
+  background-color:#034dcb;
+  box-shadow: 2px 1.5px 1px #888888;
+  border-radius: 5px;
+}
+.mobile-top-bar-button:hover {
+  background-color: #e7e7e7;
+}
+
+.mobile-top-nav {
+  z-index: -1;
+  position: relative;
+  -webkit-transition-property: top;
+  -webkit-transition-duration: 0.5s;
+  top: 20px; /* start out at position 0 */
+}
+.mobile-top-nav-active {
+  top:100px;
+}
+
+.nav-box {
+  background-color: #034dcb;
+  box-shadow: 2px 1.5px 1px #888888;
+  border-color: #e7e7e7;
+  border-radius: 15px;
+}
+
+.App-nav-buttons {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  width: 100%;
+  color: #e7e7e7;
+  font-weight: bold;
+  font-size: 20px;
+  background-color: #034dcb;
+  box-shadow: 2px 1.5px 1px #888888;
+  border-radius: 5px;
+  font-family: BeonMedium;
+  font-weight: bold;
+  font-size: 15px;
+}
+.App-nav-buttons-active {
+  color: #e7e7e7;
+  background-color: #32abab;
+}
+
+.App-content {
+  position: absolute;
+  left: 0;
+  top: 200px;
+  margin: auto;
+  width: 100%;
+  height: 68%;
+}
+
+.App-footer {
+  position:fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  color: #e7e7e7;
+  background-color: #034dcb;
+}
+
+.appstores {
+  height: 50%;
+}
+.playstore-logo {
+  height: 90px;
+  width: auto;
+}
+.appstore-logo {
+  height: 75px;
+  width: auto;
+}
+
+.content-enter {
+  opacity: 0.01;
+}
+
+.content-enter.content-enter-active {
+  opacity: 1;
+  transition: opacity 500ms ease-in;
+}
+
+.content-leave {
+  opacity: 1;
+}
+
+.content-leave.content-leave-active {
+  opacity: 0.01;
+  transition: opacity 300ms ease-in;
+}

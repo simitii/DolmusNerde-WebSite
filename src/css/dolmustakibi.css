@@ -1,0 +1,60 @@
+.mobile-choice-box {
+  height: 70px;
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 5px;
+  background-color: #32abab;
+  box-shadow: 2px 1.5px 1px #888888;
+  border-color: #e7e7e7;
+  border-radius: 15px;
+}
+.choice-box-label {
+  color:#034dcb;
+  font-family: BeonMedium;
+  font-weight: bold;
+}
+.mobile-search-button {
+  height:50px;
+  position: relative;
+  right: 5px;
+  background-color:#034dcb;
+  box-shadow: 2px 1.5px 1px #888888;
+  border-color: #e7e7e7;
+  color: #32abab;
+  font-weight: bold;
+}
+
+.mobile-search-button:hover{
+  background-color: #e7e7e7
+}
+
+.mobile-map-box {
+  background-color: #32abab;
+  box-shadow: 2px 1.5px 1px #888888;
+  border-color: #e7e7e7;
+  border-radius: 15px;
+}
+
+.container-dolmus-takibi {
+  margin: auto;
+  width: 80%;
+  height: 80%;
+  background-color: #e7e7e7;
+  box-shadow: 2px 1.5px 1px #888888;
+  border-color: #e7e7e7;
+  border-radius: 15px;
+  padding: 20px;
+}
+
+.hat-sec-box {
+  background-color: #32abab;
+  margin-top: 12%;
+  margin-left: 1%;
+  margin-right: 2%;
+  box-shadow: 2px 1.5px 1px #888888;
+  border-color: #e7e7e7;
+  border-radius: 15px;
+  padding: 10px;
+}

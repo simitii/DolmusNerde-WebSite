@@ -1,0 +1,83 @@
+@media only screen and (max-width: 700px) {
+  .contact-container{
+    position: relative;
+    left: 3%;
+    width: 94%;
+    height: auto;
+    top: 0px;
+    background-color: #e7e7e7;
+    box-shadow: 2px 1.5px 1px #888888;
+    border-color: #e7e7e7;
+    border-radius: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+}
+@media only screen and (min-width:700px) and (max-width: 1000px) {
+  .contact-container{
+    position: relative;
+    left: 15%;
+    width: 70%;
+    height: auto;
+    top: 0px;
+    background-color: #e7e7e7;
+    box-shadow: 2px 1.5px 1px #888888;
+    border-color: #e7e7e7;
+    border-radius: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+}
+@media only screen and (min-width: 1000px) {
+  .contact-container{
+    position: relative;
+    left: 20%;
+    width: 60%;
+    height: auto;
+    top: 0px;
+    background-color: #e7e7e7;
+    box-shadow: 2px 1.5px 1px #888888;
+    border-color: #e7e7e7;
+    border-radius: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+}
+
+
+.konu {
+  width: 80%;
+  height:30px;
+  text-align: center;
+  resize: none;
+}
+
+.mesaj {
+  width: 80%;
+  height: 70px;
+  margin-top: 10px;
+  text-align: center;
+  resize: none;
+}
+
+.iletisim {
+  width: 80%;
+  height: 30px;
+  margin-top: 10px;
+  text-align: center;
+  resize: none;
+}
+
+.submit-button {
+  position: relative;
+  left: 0;
+  top: -5px;
+  background-color: #034dcb;
+  width: 250px;
+  height: 40px;
+  color: #e7e7e7;
+  font-weight: bold;
+  font-size: 20px;
+  box-shadow: 1px 1px 1px #888888;
+  border-color: #e7e7e7;
+}
